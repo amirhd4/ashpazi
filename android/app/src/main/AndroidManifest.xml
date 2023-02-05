@@ -1,0 +1,186 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.ashpazi">
+        <uses-permission android:name="android.permission.INTERNET"/>
+
+   <application
+        android:label="سرآشپز"
+        android:name="${applicationName}"
+        android:icon="@mipmap/launcher_icon">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <!-- Specifies an Android theme to apply to this Activity as soon as
+                 the Android process has started. This theme is visible to the user
+                 while the Flutter UI initializes. After that, this theme continues
+                 to determine the Window background behind the Flutter UI. -->
+            <meta-data
+              android:name="io.flutter.embedding.android.NormalTheme"
+              android:resource="@style/NormalTheme"
+              />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <!-- Provide required visibility configuration for API level 30 and above -->
+        
+        </activity>
+        <!-- Don't delete the meta-data below.
+             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+    </application>
+    <queries>
+        <!-- If your app checks for SMS support -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://zarinbano.com" />
+        </intent>
+        <!-- If your app checks for call support -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="namnak.com" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="khabaronline.ir" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://irna.ir" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://fararu.com" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://samtik.com" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://irandehyar.com" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://1touchfood.com" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://raheeno.com" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://eligasht.com" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://rismoun.com" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://alibaba.ir" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://otaghak.com" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://dana.ir" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://namnamak.com" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://jazebeha.com" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://sepanja.com" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://seeiran.ir" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://kojaro.com" />
+        </intent>
+                <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://foodculture.ir" />
+        </intent>
+               <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://top-travel.ir" />
+        </intent>
+               <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://flightio.com" />
+        </intent>
+               <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://irantrawell.com" />
+        </intent>
+               <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://irantrawell.com" />
+        </intent>
+               <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://beytoote.com" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://safarzon.com" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://shiraznovinnews.ir" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://beytoote.com" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://7ganj.ir" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http://parsiday.com" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="chishi.ir" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="panamag.ir" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="atawich.com" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="foodotto.com" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="persianv.com" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="arga-mag.com" />
+        </intent>
+      
+        </queries>
+</manifest>
